@@ -59,3 +59,7 @@ macOS 14 or later. Learn more at [luere.app/icon-studio](https://luere.app/icon-
 ---
 
 <p align="center">Made by <a href="https://dominicmartineau.com">Dominic Martineau</a>.</p>
+
+<p align="center">
+  <img alt="Total downloads" src="https://img.shields.io/github/downloads/dominicmartineau/luere-icon-studio/total?label=downloads&color=brightgreen" />
+</p>
