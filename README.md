@@ -27,9 +27,13 @@ Everything happens on your Mac. Nothing is ever uploaded.
 
 - **Drop, tick, export** — drag in one image, choose the formats you want, and
   everything generates in a single click.
-- **Web favicons** — `favicon.ico` (16/32/48), a PNG set, `apple-touch-icon` and
-  `android-chrome` 192/512, plus `site.webmanifest` and a ready-to-paste head snippet.
-- **macOS `.icns`** — a single `icon.icns` compiled from 16 all the way up to 1024.
+- **Web favicons** — `favicon.ico` (16/32/48), `favicon.svg`, a PNG set,
+  `apple-touch-icon` and `android-chrome` 192/512, plus `site.webmanifest` and a
+  ready-to-paste head snippet.
+- **PWA** — standard **and** maskable icons (safe-zone padded) plus a full
+  `manifest.webmanifest`, so your app installs cleanly on Android and desktop.
+- **macOS icons** — a single `icon.icns` compiled from 16 up to 1024, plus an
+  `AppIcon.appiconset` (macOS slots, @1x/@2x) ready to drop into Xcode.
 - **iOS AppIcon set** — a complete `AppIcon.appiconset` with a 1024px master and
   `Contents.json`, ready to drop into Xcode.
 - **Windows `.ico` + PNGs** — multi-resolution `favicon.ico` (16/32/48/256) plus
