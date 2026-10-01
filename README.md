@@ -20,7 +20,7 @@
 ---
 
 Luere Icon Studio turns a single logo into every icon and favicon size you need —
-web, macOS, iOS, Android and Windows — written to a tidy folder right next to your source.
+web, macOS, iOS, Android, Windows and Steam — written to a tidy folder right next to your source.
 Everything happens on your Mac. Nothing is ever uploaded.
 
 ## Features
@@ -41,6 +41,8 @@ Everything happens on your Mac. Nothing is ever uploaded.
   mdpi to xxxhdpi, plus a 512px Play Store icon.
 - **Windows `.ico` + PNGs** — multi-resolution `favicon.ico` (16/32/48/256) plus
   standalone PNGs from 16 to 256.
+- **Steam icons** — the 184px `community_icon.jpg` and a multi-resolution
+  `client_icon.ico` (16 → 256), ready to upload in Steamworks.
 - **Sharp resizing** — high-quality CoreGraphics scaling; a 1024×1024 source gives
   the crispest results.
 
