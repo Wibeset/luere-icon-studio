@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/dominicmartineau/luere-icon-studio/releases/latest/download/LuereIconStudio.dmg"><strong>Download for macOS →</strong></a>
+  <a href="https://github.com/Wibeset/luere-icon-studio/releases/latest/download/LuereIconStudio.dmg"><strong>Download for macOS →</strong></a>
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ Everything happens on your Mac. Nothing is ever uploaded.
 
 ## Download
 
-**[Download Luere Icon Studio for macOS →](https://github.com/dominicmartineau/luere-icon-studio/releases/latest/download/LuereIconStudio.dmg)** — free, forever. Requires
+**[Download Luere Icon Studio for macOS →](https://github.com/Wibeset/luere-icon-studio/releases/latest/download/LuereIconStudio.dmg)** — free, forever. Requires
 macOS 14 or later. Learn more at [luere.app/icon-studio](https://luere.app/icon-studio/).
 
 ## Also by the maker
@@ -65,5 +65,5 @@ macOS 14 or later. Learn more at [luere.app/icon-studio](https://luere.app/icon-
 <p align="center">Made by <a href="https://dominicmartineau.com">Dominic Martineau</a>.</p>
 
 <p align="center">
-  <img alt="Total downloads" src="https://img.shields.io/github/downloads/dominicmartineau/luere-icon-studio/total?label=downloads&color=brightgreen" />
+  <img alt="Total downloads" src="https://img.shields.io/github/downloads/Wibeset/luere-icon-studio/total?label=downloads&color=brightgreen" />
 </p>
