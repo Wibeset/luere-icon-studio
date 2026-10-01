@@ -20,7 +20,7 @@
 ---
 
 Luere Icon Studio turns a single logo into every icon and favicon size you need —
-web, macOS, iOS, Android, Windows and Steam — written to a tidy folder right next to your source.
+web, macOS, iOS, Android, Windows, Linux, Steam and more — written to a tidy folder right next to your source.
 Everything happens on your Mac. Nothing is ever uploaded.
 
 ## Features
@@ -34,8 +34,9 @@ Everything happens on your Mac. Nothing is ever uploaded.
   `manifest.webmanifest`, so your app installs cleanly on Android and desktop.
 - **macOS icons** — a single `icon.icns` compiled from 16 up to 1024, plus an
   `AppIcon.appiconset` (macOS slots, @1x/@2x) ready to drop into Xcode.
-- **iOS AppIcon set** — a complete `AppIcon.appiconset` with a 1024px master and
-  `Contents.json`, ready to drop into Xcode.
+- **iOS AppIcon set** — a complete `AppIcon.appiconset` with an opaque 1024px
+  master (App Store–safe), iOS 18 dark and tinted variants and `Contents.json`,
+  ready to drop into Xcode.
 - **Android launcher icons** — a drop-in `res/` folder with `ic_launcher`, round
   and adaptive icons (logo kept in the 66dp safe zone) for every density from
   mdpi to xxxhdpi, plus a 512px Play Store icon.
@@ -43,6 +44,20 @@ Everything happens on your Mac. Nothing is ever uploaded.
   standalone PNGs from 16 to 256.
 - **Steam icons** — the 184px `community_icon.jpg` and a multi-resolution
   `client_icon.ico` (16 → 256), ready to upload in Steamworks.
+- **Tauri & Electron** — the `src-tauri/icons` set exactly as `tauri icon` makes
+  it, and electron-builder's `build/` icons (`.png`, `.icns`, `.ico`).
+- **Browser extensions** — Chrome, Firefox, Edge and Safari icons from 16 to 128,
+  the padded Chrome Web Store icon, the Edge Add-ons logo and a `manifest.json`
+  snippet.
+- **Linux** — a freedesktop `hicolor/` tree from 16 to 512 plus a `.desktop`
+  entry, ready for Flatpak, Snap or AppImage.
+- **Microsoft Store (MSIX)** — a Visual Studio `Assets/` folder with every tile at
+  scale-100 → 400, plated and unplated `targetsize` icons and a
+  `Package.appxmanifest` snippet.
+- **Expo / React Native** — an opaque `icon.png`, an Android `adaptive-icon.png`,
+  a `favicon.png` and the matching `app.json` snippet.
+- **Social & app avatars** — ready-sized avatars and app icons for Discord, Slack,
+  GitHub, X, Bluesky, LinkedIn, YouTube and Mastodon.
 - **Sharp resizing** — high-quality CoreGraphics scaling; a 1024×1024 source gives
   the crispest results.
 
