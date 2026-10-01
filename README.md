@@ -20,7 +20,7 @@
 ---
 
 Luere Icon Studio turns a single logo into every icon and favicon size you need —
-web, macOS, iOS and Windows — written to a tidy folder right next to your source.
+web, macOS, iOS, Android and Windows — written to a tidy folder right next to your source.
 Everything happens on your Mac. Nothing is ever uploaded.
 
 ## Features
@@ -36,6 +36,9 @@ Everything happens on your Mac. Nothing is ever uploaded.
   `AppIcon.appiconset` (macOS slots, @1x/@2x) ready to drop into Xcode.
 - **iOS AppIcon set** — a complete `AppIcon.appiconset` with a 1024px master and
   `Contents.json`, ready to drop into Xcode.
+- **Android launcher icons** — a drop-in `res/` folder with `ic_launcher`, round
+  and adaptive icons (logo kept in the 66dp safe zone) for every density from
+  mdpi to xxxhdpi, plus a 512px Play Store icon.
 - **Windows `.ico` + PNGs** — multi-resolution `favicon.ico` (16/32/48/256) plus
   standalone PNGs from 16 to 256.
 - **Sharp resizing** — high-quality CoreGraphics scaling; a 1024×1024 source gives
